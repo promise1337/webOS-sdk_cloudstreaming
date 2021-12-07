@@ -11,7 +11,7 @@ Install webOS_SDK-CloudStreaming with webOS SDK (ares-package)
 
 ```bash
     ares-package ./nameApp
-    ares-install --device DEVICENAME ./com.yourdomain.app_0.0.6_all.ipk
+    ares-install --device DEVICENAME ./com.domain.app_0.0.6_all.ipk
 ```
     
 ## Screenshots
