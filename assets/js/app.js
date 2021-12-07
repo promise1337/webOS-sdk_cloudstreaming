@@ -9,6 +9,10 @@ new Vue({
             const res = await fetch('https://raw.githubusercontent.com/promise1337/promise1337/main/test.json', {})
             this.films = await res.json();
             console.log(this.films)
+        },
+
+        refreshMovies() {
+            window.location.reload();
         }
     },
     created() {
