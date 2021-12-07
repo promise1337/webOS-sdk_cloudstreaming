@@ -1,7 +1,7 @@
 
 # webOS_SDK-CloudStreaming
 
-A basic webApp using webOS_SDK for LG televisions (Apps)
+A basic webApp (VueJS, Bootstrap) using webOS_SDK for LG televisions (Apps)
 
 
 
