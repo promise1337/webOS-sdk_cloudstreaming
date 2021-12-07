@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="webOSTVjs-1.2.4/webOSTV.js" charset="utf-8"></script>
     <script src="webOSTVjs-1.2.4/webOSTV-dev.js" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
-    <header class="masthead" style="background-image:url('assets/img/header-bg.jpg');"></header>
-    <section class="bg-light" id="portfolio">
+   <section class="bg-light" id="portfolio">
         <div class="container" id="app">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">LISTE DES FILMS DISPONIBLE...</h2>
-                    <button @click="refreshMovies" class="btn btn-success">Actualisé</button>   
+                    <h2 class="text-uppercase section-heading">LISTE DES FILMS DISPONIBLES...</h2>
+                    <button @click="refreshMovies" class="btn btn-success">Actualisés</button>   
                     <hr class="col-xs-12">                
                 </div>
             </div>
@@ -40,6 +41,9 @@
             </v-container>
         </div>
     </section>
+    <script>
+        window.scroll(0,50);
+    </script>
     <script src="assets/js/app.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>

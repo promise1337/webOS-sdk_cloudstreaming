@@ -6,9 +6,29 @@ new Vue({
     },
     methods: {
         async getMovies() {
-            const res = await fetch('https://raw.githubusercontent.com/promise1337/promise1337/main/test.json', {})
+            const res = await fetch('JSONURL', {})
+            /*
+            JSON look liks :
+            [
+                {
+                    "name": "Movie name",
+                    "type": "Thriller",
+                    "movie": "Link mp4 here",
+                    "img": "imgur about your movies",
+                    "description": "Description about your films"
+                },
+
+                {
+                    "name": "Movie name",
+                    "type": "Thriller",
+                    "movie": "Link mp4 here",
+                    "img": "imgur about your movies",
+                    "description": "Description about your films"
+                }
+            ]
+            etc...
+           */
             this.films = await res.json();
-            console.log(this.films)
         },
 
         refreshMovies() {
