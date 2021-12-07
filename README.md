@@ -7,7 +7,7 @@ A basic webApp using webOS_SDK for LG televisions (Apps)
 
 ## Installation
 
-Install my-project with npm
+Install webOS_SDK-CloudStreaming with webOS SDK (ares-package)
 
 ```bash
     ares-package ./nameApp
