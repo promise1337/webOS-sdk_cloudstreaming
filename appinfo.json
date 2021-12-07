@@ -1,0 +1,10 @@
+{
+  "id": "com.domain.app",
+  "version": "0.0.1",
+  "vendor": "promise1337",
+  "type": "web",
+  "main": "index.html",
+  "title": "Streaming Cloud",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}
